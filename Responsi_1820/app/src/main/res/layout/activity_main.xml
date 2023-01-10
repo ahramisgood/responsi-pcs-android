@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/design_default_color_on_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="LOGIN BELANJA"
+            android:textSize="100dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="500dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/store_logo" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="429dp"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="100dp"
+            android:text="Email"
+            android:textSize="50dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="441dp"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="100dp"
+            android:text="Password"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="50dp" />
+    </LinearLayout>
+</RelativeLayout>
